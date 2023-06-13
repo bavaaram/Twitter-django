@@ -8,4 +8,3 @@ Users of this simple and small social media can do the following and take advant
 4. Users should have the ability to like and dislike the contents and posts, as well as to register comments within each other.
 5. In addition to following people, users can also follow all the contents of a particular category sticker.
 6. Before logging in, users should only be able to view content or search for people with a username.
-7. Users should be able to archive their posts or account to remove access.
