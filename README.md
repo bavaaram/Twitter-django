@@ -1,6 +1,8 @@
 # Twitter Django
 
-Users of this simple and small social media can do the following and take advantage of these features:
+Users of this simple and small social media can do the following and take advantage of many features
+
+## Features
 
 1. Have their own user profile with their username, picture and bio.
 2. View other people's user profiles and send them friend or follow requests.
@@ -8,3 +10,16 @@ Users of this simple and small social media can do the following and take advant
 4. Users should have the ability to like and dislike the contents and posts, as well as to register comments within each other.
 5. In addition to following people, users can also follow all the contents of a particular category sticker.
 6. Before logging in, users should only be able to view content or search for people with a username.
+
+
+## Built With
+
+Python 3
+Django
+Bootstrap
+SQLite (Database) 
+![ERD](./ERD.png)
+
+## Authors
+
+Matin Ghane
