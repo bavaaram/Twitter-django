@@ -17,7 +17,7 @@ class Post(models.Model):
                                 verbose_name=_("User"),
                                 on_delete=models.CASCADE)
 
-    def is_liked_by_user(self, user):
+    def liked_by_user(self, user):
         return self.reaction_set.filter(user=user).exists()
 
     class Tag(models.Model):
