@@ -16,7 +16,7 @@ Users of this simple and small social media can do the following and take advant
 
 Python 3
 Django
-Bootstrap
+HTML & CSS
 SQLite (Database) 
 ![ERD](./ERD.png)
 
