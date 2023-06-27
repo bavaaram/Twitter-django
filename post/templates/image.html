@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends 'base/base.html' %}
+{% block title %}
+Images
+{% endblock title %}{% block images %}
+<h1>Image</h1>
+<img src="{{ image.image.url }}" alt="Image">
+<p>Image ID: {{ image.id }}</p>
+<p>Related Post ID: {{ image.related_post.id }}</p>
+{% endblock images %}
